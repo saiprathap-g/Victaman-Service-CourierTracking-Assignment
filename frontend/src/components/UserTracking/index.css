@@ -1,0 +1,62 @@
+.UserTracking {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.UserTracking-header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.UserTracking-title {
+  margin: 0;
+}
+
+.UserTracking-company {
+  font-size: 14px;
+}
+
+.UserTracking-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.UserTracking-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.UserTracking-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.UserTracking-details {
+  margin-top: 20px;
+}
+
+.UserTracking-footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.UserTracking-footer p {
+  margin: 0;
+  font-size: 14px;
+}

@@ -1,0 +1,47 @@
+.update-package-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.update-package-form input {
+  flex-basis: calc(50% - 10px);
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.update-package-form button {
+  flex-basis: calc(50% - 10px);
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-package-form button:hover {
+  background-color: #0069d9;
+}
+
+.status-ele {
+  width: 10vw;
+  margin-left: 10px;
+}
+
+.actions-change-button {
+  padding: 10px;
+  margin: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

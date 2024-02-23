@@ -1,0 +1,62 @@
+.admin-login-app {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.admin-login-header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.admin-login-title {
+  margin: 0;
+}
+
+.admin-login-company {
+  font-size: 14px;
+}
+
+.AdminLogin {
+  margin-top: 20px;
+}
+
+.AdminLogin-title {
+  margin-top: 0;
+}
+
+.AdminLogin-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.AdminLogin-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.admin-login-footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.admin-login-footer p {
+  margin: 0;
+  font-size: 14px;
+}

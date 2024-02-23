@@ -1,0 +1,15 @@
+.delete-package-button {
+  padding: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+.delete-package-button:hover {
+  background-color: #c82333;
+}
