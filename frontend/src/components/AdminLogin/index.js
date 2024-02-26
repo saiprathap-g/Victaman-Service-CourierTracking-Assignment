@@ -50,6 +50,11 @@ class AdminLogin extends Component {
     this.setState({ password: event.target.value });
   };
 
+  handleUser = () => {
+    const { history } = this.props;
+    history.replace("/");
+  };
+
   render() {
     const { username, password } = this.state;
 
@@ -83,9 +88,18 @@ class AdminLogin extends Component {
               value={password}
               onChange={this.handlePasswordChange}
             />
-            <button className="AdminLogin-button" type="submit">
-              Login
-            </button>
+            <div className="user-redirect">
+              <button
+                type="button"
+                className="user-button"
+                onClick={this.handleUser}
+              >
+                Back
+              </button>
+              <button className="AdminLogin-button" type="submit">
+                Login
+              </button>
+            </div>
           </form>
         </div>
         <footer className="admin-login-footer">

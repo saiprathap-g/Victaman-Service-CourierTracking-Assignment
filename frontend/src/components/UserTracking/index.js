@@ -32,10 +32,24 @@ class UserTracking extends Component {
     this.fetchPackageDetails();
   };
 
+  handleAdminLogin = () => {
+    const { history } = this.props;
+    history.replace("/admin");
+  };
+
   render() {
     const { trackingNumber, packageDetails } = this.state;
     return (
       <div className="UserTracking">
+        <div className="admin-redirect">
+          <button
+            type="button"
+            className="admin-button"
+            onClick={this.handleAdminLogin}
+          >
+            Admin Login
+          </button>
+        </div>
         <header className="UserTracking-header">
           <h1 className="UserTracking-title">Courier Tracking App</h1>
           <p className="UserTracking-company">
