@@ -56,3 +56,26 @@ The backend uses a SQL database to store package information. Make sure to set u
 "/": Renders the UserTracking component.
 "/admin": Renders the AdminLogin component.
 "/admin-dashboard": Renders the AdminDashboard component, but only after logging in.
+
+## Description
+This project can be run locally using Visual Studio Code. Follow the instructions below to run both the frontend and backend.
+
+## Running the Frontend
+1. Open the terminal.
+2. Navigate to the frontend directory by typing `cd frontend`.
+3. Install the required packages by typing `npm install`.
+4. Start the frontend by typing `npm start`.
+
+## Running the Backend
+1. Open the terminal.
+2. Split the terminal window.
+3. Navigate to the backend directory by typing `cd backend`.
+4. Start the backend by typing `npm start`.
+
+## Example Package Tracking Number
+An example package tracking number is 'PCKG799535'.
+
+## Admin Credentials
+Use the following admin credentials to access the system:
+- Username: admin2
+- Password: admin2@123
